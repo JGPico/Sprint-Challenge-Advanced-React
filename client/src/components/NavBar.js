@@ -9,9 +9,9 @@ function NavBar () {
     };
 
     return (
-        <nav>
-            <h1>Navigation</h1>
-            <button 
+        <nav className='nav-bar'>
+            <h1 className='nav-item'>Navigation</h1>
+            <button className='nav-item'
             onClick={toggleMode}>Toggle DarkMode</button>
         </nav>
     )

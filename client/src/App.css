@@ -2,6 +2,16 @@
   text-align: center;
 }
 
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-item {
+  width: 200px;
+
+}
+
 .dark-mode {
   color: #e2e2ec;
   background-color: #100455;
