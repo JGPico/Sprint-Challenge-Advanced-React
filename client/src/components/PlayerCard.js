@@ -7,7 +7,7 @@ function PlayerCard (props) {
             {props.player.map(player => (
                 <div key={player.id}>
                     <h2>{player.name}</h2>
-                    <p>{player.country}</p>
+                    <p>Origin: {player.country}</p>
                 </div>
             ))}
         </div>
